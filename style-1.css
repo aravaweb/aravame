@@ -12,6 +12,10 @@ body {
 	filter: brightness(2);
 	
 }
+.aravaent {
+	color: #ff0000;
+	font-weight: bold;
+}
 header {
 	display: flex;
 	justify-content: space-between;
@@ -132,3 +136,74 @@ ul li a {
 	color: #ff3866;
 	text-align: center;
 }
+@media only screen and (max-width: 1134px) {
+	#spotlight {
+	margin-top: 20%;
+	text-align: center;
+}
+@media only screen and (max-width: 970px) {
+	.videoplay {
+	 width: 670px; 
+	 height: 310px;
+	 border-radius: 17px;
+	 border-color: transparent;
+}
+}
+@media only screen and (max-width: 679px) {
+	#spotlight {
+	margin-top: 40%;
+	text-align: center;
+}
+.spotlight-text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+.videoplay {
+	 width: 420px; 
+	 height: 230px;
+	 border-radius: 17px;
+	 border-color: transparent;
+	 margin-top: 70px;
+}
+@media only screen and (max-width: 485px) {
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media only screen and (max-width: 475px) {
+	#spotlight {
+	margin-top: 40%;
+	text-align: center;
+}
+.spotlight-text {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+.search-button {
+	width: 140px;
+	height: 40px;
+	font-size: 23px;
+	border-radius: 17px;
+	border-color: transparent;
+	background: #1d8ad3;
+	color: #fff;
+}
+@media only screen and (max-width: 307px) {
+	ul li a {
+	color: #fff;
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+ul li  {
+	display: inline-block;
+	margin-right: 15px;
+}
+}
+}	
